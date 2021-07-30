@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: Louis;
+    src: url(Louis.ttf);
+}
+
+.title{
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-family: Louis;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+
+}
+
+.title2{
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-family: Louis;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.subtitle{
+    font-size: 2vh;
+    margin-bottom: 5vh;
+    font-family: Louis;
+    color: #fff;
+    cursor: default;
+    
+}
+
+.subtitle2{
+    font-size: 2vh;
+    margin-bottom: 5vh;
+    font-family: Louis;
+    color: #fff;
+    cursor: default;
+
+    
+}
+
+
+ /* Parte de sobre */
+
+#about{
+    background-color: #23232e;
+    height: 80vh;
+    display: flex;
+    align-items: flex;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+
+
+.a1{
+    float: left;
+    height: 80vh;
+    width: 50%;
+}
+
+.a2{
+    float: left;
+    height: 80vh;
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+}       
+
+.parag{
+    color: #fff;
+    font-family: Louis;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+ /* Parte da galeria */
+
+#inst{
+    background-color: #23232e;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+}
+
+/* css de imagens */
+.sizeg{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 5px;
+
+}
+
+.abt{
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin: 5px;
+}
+
+
+
+/* Parte de contatos */
+
+#contat{
+    background-color: #23232e;
+    padding: 20px;
+    padding-top: 50px;
+    height: 70vh;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.contato{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #23232e;
+    height: 50vh;
+}
+
+.tl{
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-family: Louis;
+    color: #fff;
+    cursor: default;
+    flex-direction: column;
+}
+
+.insta{
+    margin: 5%;
+}
+
+.wpp{
+    margin: 5%;
+}
+
+.tele{
+    margin: 5%;
+}
+
+
+.copyright{
+    background-color: #05060f;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+
+@media (max-width: 999px){
+
+.insta{
+        margin: 5%;
+        font-size: 50%;
+    }
+    
+.wpp{
+        margin: 5%;
+        font-size: 50%;
+    }
+    
+.tele{
+        margin: 5%;
+        font-size: 50%;
+    }
+
+.sizeg{
+        height: 155px;
+        width: 155px;
+    
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
